@@ -22,4 +22,6 @@ We have added components such as:<br />
 
 We have implemented **High Charts** in the frontend for the Sales Monitering<br />
 <br />
-Also implemented **Open API Swagger** for the backend by adding the Create, Get, Delete, Post, Put functionalities.
+Also implemented **Open API Swagger** for the backend by adding the Create, Get, Delete, Post, Put functionalities.<br />
+
+Video link: [https://drive.google.com/file/d/1ic48pN-rCWoN3_ed_VGIdElD1BhuC1m3/view?usp=drive_link](https://drive.google.com/file/d/1ic48pN-rCWoN3_ed_VGIdElD1BhuC1m3/view?usp=sharing)
