@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categories</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: blanchedalmond;
+      margin: 0;
+      padding: 0;
+    }
+    .category-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .category {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+<h1>Product Categories</h1>
+<div class="category-list">
+  <div class="category">Dairy Products</div>
+  <div class="category">Bakery</div>
+  <div class="category">Beverages</div>
+  <div class="category">Snacks</div>
+  <div class="category">Household Items</div>
+</div>
+<a href="home.html">Back to Home</a>
+</body>
+</html>
+
+<router-outlet />

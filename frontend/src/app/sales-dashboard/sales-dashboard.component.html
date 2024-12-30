@@ -1,0 +1,22 @@
+<div>
+  <h1>Sales Dashboard</h1>
+</div>
+<div>
+  <h2>Sales Overview</h2>
+  <highcharts-chart
+    [Highcharts]="Highcharts"
+    [options]="chartOptions"
+    style="width: 100%; height: 400px; display: block;"
+  ></highcharts-chart>
+</div>
+
+<script>
+  document.getElementById('view-products-btn').addEventListener('click', function () {
+    const productList = document.getElementById('product-list');
+    if (productList.style.display === 'none') {
+      productList.style.display = 'block';
+    } else {
+      productList.style.display = 'none';
+    }
+  });
+</script>
